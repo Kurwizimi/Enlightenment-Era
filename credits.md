@@ -34,5 +34,5 @@ WONDERS
 - Kronbourg - Castle by Ahmed Elzahra from Noun Project (CC BY 3.0) 
 - Smithsonian Institute - School by The Icon Z from Noun Project (CC BY 3.0)
 - Topkapi Palace - topkapi palace by Linseed Studio from Noun Project (CC BY 3.0)
-- Torre del Oro - Torre de Belem by Amethyst Studio from Noun Project (CC BY 3.0) (Yes I know this isnt the same thing, there simply isn't any good icons for Torre del Oro. If you find some, please send me them.
+- Torre del Oro - Torre de Belem by Amethyst Studio from Noun Project (CC BY 3.0) (Yes I know this isnt the same thing, there simply isn't any good icons for Torre del Oro. If you find some, please send me them. Please.)
 - Wat Phra Kaew - Wat Phra Kaew by tezar tantular from Noun Project (CC BY 3.0)
