@@ -292,7 +292,7 @@
 		"movement": 4,
 		"strength": 36,
 		"cost": 225,
-		"requiredTech": "Military Science",
+		"requiredTech": "Rifling", //Should be unlocked at Military Science, inst to accomodate Cavalry
 		"requiredResource": "Horses",
 		"uniques": ["[+33]% Strength <vs [Mounted] units>", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"promotions": ["Ambush I"], //The Anti-armour and anti-cav abilities are not directly said, so I'm going with this
@@ -421,12 +421,12 @@
 		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "Machinery",
-		"upgradesTo": "Skirmisher",
+		"upgradesTo": "Light Rifles",
 		"obsoleteTech": "Flintlock",
 		"attackSound": "crossbow"
 	},
 	{
-		"name": "Skirmisher",
+		"name": "Light Rifles",	//Should be called Skirmisher, but isn't to avoid clashes with the barbarian unit
 		"unitType": "Ranged Gunpowder",
 		"range": 1,
 		"movement": 2,
@@ -449,7 +449,7 @@
 		"replaces": "Crossbowman",
 		"cost": 120,
 		"requiredTech": "Machinery",
-		"upgradesTo": "Skirmisher",
+		"upgradesTo": "Light Rifles",
 		"obsoleteTech": "Flintlock",
 		"promotions": ["[Chu-Ko-Nu] ability"],
 		"attackSound": "crossbow"
@@ -457,15 +457,15 @@
 	{
 		"name": "Longbowman",
 		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "England",
 		"range": 2,
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
-		"replaces": "Crossbowman",
-		"uniqueTo": "England",
 		"cost": 120,
 		"requiredTech": "Machinery",
-		"upgradesTo": "Skirmisher",
+		"upgradesTo": "Light Rifles",
 		"obsoleteTech": "Flintlock",
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
@@ -473,7 +473,7 @@
 	{
 		"name": "Minuteman",
 		"unitType": "Ranged Gunpowder",
-		"replaces": "Skirmisher", //different upgrade path
+		"replaces": "Light Rifles", //different upgrade path
 		"uniqueTo": "America",
 		"range": 1,
 		"movement": 2,
