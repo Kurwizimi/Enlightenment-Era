@@ -114,7 +114,7 @@
     	"cost": 250,
 		"percentStatBonus": {"culture": 25},
 		"hurryCostModifier": 15,
-    	"uniques": ["[+25]% Great Person generation [in this city]", "Can only be built <in cities without a [Acedemy]>"],
+    	"uniques": ["[+25]% Great Person generation [in this city]", "Can only be built <in cities without a [Academy]>"],
 		"requiredTech": "Humanism"
 	},
   		{
