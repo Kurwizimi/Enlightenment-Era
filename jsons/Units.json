@@ -56,8 +56,8 @@
 		"strength": 16,	//Reduced Strength, from 20
 		"cost": 120,
 		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
+		"upgradesTo": "Privateer",	//This is a change I have made to make Caravels more useful in the mod
+		"obsoleteTech": "Navigation",
 		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
