@@ -78,7 +78,7 @@
 			{
 				"name": "Flintlock",
 				"row": 10,
-				"prerequisites": ["Soverignty","Metallurgy","Chemistry"],
+				"prerequisites": ["Sovereignty","Metallurgy","Chemistry"],
                 "uniques": [],
 				"quote": ""
 			}
