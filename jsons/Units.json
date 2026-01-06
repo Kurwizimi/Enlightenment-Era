@@ -388,6 +388,7 @@
 	{
 		"name": "Norwegian Ski Infantry",
 		"unitType": "Gunpowder",
+		"replaces": "Line Infantry",
 		"uniqueTo": "Denmark",
 		"movement": 2,
 		"strength": 30,
