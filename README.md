@@ -1,3 +1,3 @@
-# Future Worlds
+# Enlightenment era
 
-A replica of Bouncymischa's Future Worlds mod.
+A replica of Poukai's Enlightenment Era mod.
