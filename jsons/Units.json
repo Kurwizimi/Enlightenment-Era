@@ -77,6 +77,21 @@
 		"obsoleteTech": "Compass",
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Ship of the Line", //New ability
+		"unitType": "Melee Water",
+		"uniqueTo": "England",
+		"replaces": "First Rate",
+		"movement": 5,
+		"strength": 40,
+		"cost": 185,
+		"requiredTech": "Navigation",
+		"promotions": ["[Ship of the Line] ability"],
+		"requiredResource": "Iron",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Steam Power",
+		"attackSound": "nonmetalhit"
+	},
 
 	//Water Ranged
 	{
@@ -117,23 +132,6 @@
 		"upgradesTo": "Battleship",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
-	},
-	//(Uniques)
-	{
-		"name": "Ship of the Line", //Should be renamed to 'First Rate', but isn't to avoid annoying issues
-		"unitType": "Ranged Water",
-		"replaces": "Frigate",
-		"uniqueTo": "England",
-		"movement": 5,
-		"strength": 30,
-		"rangedStrength": 35,
-		"cost": 185,
-		"uniques": ["[+1] Sight"],
-		"requiredTech": "Warships",
-		"obsoleteTech": "Armour Plating",
-		"upgradesTo": "Cruiser",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"	//Ship of the Line shouldn't need Iron, like the Frigate
 	},
 
 	//Mounted
