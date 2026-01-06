@@ -64,14 +64,14 @@
 			{
 				"name": "Humanism",
 				"row": 4,
-				"prerequisites": ["Banking","Printing Press"],
+				"prerequisites": ["Architecture","Sovereignty"],
                 "uniques": [],
 				"quote": ""
 			},
 			{
 				"name": "Economics",
 				"row": 6,
-				"prerequisites": ["Printing Press","Gunpowder"],
+				"prerequisites": ["Sovereignty"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Compound interest is the most powerful force in the universe.' - Albert Einstein"
 			},
