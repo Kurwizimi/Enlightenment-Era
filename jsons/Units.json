@@ -1,116 +1,142 @@
 [
-
-	// Existing units
-	// Need to be re-added so that they can promote to the new units added
-		
-    {
-		"name": "Scout",
-		"unitType": "Scout",
-		"movement": 2,
-		"strength": 5,
-		"cost": 25,
-		"requiredTech": "Agriculture",
-		"obsoleteTech": "Exploration",
-		"upgradesTo": "Explorer",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost"],
+	//Water Melee
+	{
+		"name": "Trireme",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Carrack",
+		"obsoleteTech": "Compass",
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Musketman",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Line Infantry",
-		"obsoleteTech": "Flintlock",
-		"attackSound": "shot"
+		"name": "Carrack",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 18,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Galleon",
+		"obsoleteTech": "Exploration",
+		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Musketeer",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "France",
-		"movement": 2,
+		"name": "Galleon",
+		"unitType": "Melee Water",
+		"movement": 4,
 		"strength": 28,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Line Infantry",
-		"obsoleteTech": "Flintlock",
-		"attackSound": "shot"
+		"cost": 165,
+		"requiredTech": "Exploration",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"upgradesTo": "First Rate",
+		"obsoleteTech": "Navigation",
+		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Janissary",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "The Ottomans",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Line Infantry",
-		"obsoleteTech": "Flintlock",
-		"promotions": ["[Janissary] ability"],
-		"attackSound": "shot"
+		"name": "First Rate", //Should be called Ship of the Line, but isn't to avoid clashes
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 37,
+		"cost": 185,
+		"requiredTech": "Navigation",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"requiredResource": "Iron",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Steam Power",
+		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Tercio",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "Spain",
-		"movement": 2,
-		"strength": 26,
-		"cost": 160,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Line Infantry",
-		"obsoleteTech": "Flintlock",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Crossbowman",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 18,
+		"name": "Caravel", 	//Caravels are removed from the normal Water Melee tree. They are now a standalone unit
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 16,	//Reduced Strength, from 20
 		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Skirmisher",
-		"obsoleteTech": "Flintlock",
-		"attackSound": "crossbow"
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
 	},
+	//(Uniques)
 	{
-		"name": "Chu-Ko-Nu",
-		"unitType": "Archery",
-		"uniqueTo": "China",
-		"movement": 2,
+		"name": "Quinquereme",
+		"unitType": "Melee Water",
+		"uniqueTo": "Carthage",
+		"replaces": "Trireme",
+		"movement": 4,
 		"strength": 13,
-		"rangedStrength": 14,
-		"replaces": "Crossbowman",
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Skirmisher",
-		"obsoleteTech": "Flintlock",
-		"promotions": ["[Chu-Ko-Nu] ability"],
-		"attackSound": "crossbow"
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles"],
+		"upgradesTo": "Carrack",
+		"obsoleteTech": "Compass",
+		"attackSound": "nonmetalhit"
 	},
+
+	//Water Ranged
 	{
-		"name": "Longbowman",
-		"unitType": "Archery",
-		"range": 2,
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 18,
-		"replaces": "Crossbowman",
-		"uniqueTo": "England",
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Skirmisher",
-		"obsoleteTech": "Flintlock",
-		"promotions": ["Extended Range"],
+		"name": "Galleass",
+		"unitType": "Ranged Water",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 100,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Warships",		//Just changed obsolete tech here, upgrade stays the same
+		"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Frigate",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredTech": "Warships",	//Different unlock tech and upgrade
+		"obsoleteTech": "Armour Plating",
+		"upgradesTo": "Cruiser",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"	//Frigate shouldn't need Iron
+	},
+	{
+		"name": "Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	//(Uniques)
+	{
+		"name": "Ship of the Line", //Should be renamed to 'First Rate', but isn't to avoid annoying issues
+		"unitType": "Ranged Water",
+		"replaces": "Frigate",
+		"uniqueTo": "England",
+		"movement": 5,
+		"strength": 30,
+		"rangedStrength": 35,
+		"cost": 185,
+		"uniques": ["[+1] Sight"],
+		"requiredTech": "Warships",
+		"obsoleteTech": "Armour Plating",
+		"upgradesTo": "Cruiser",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"	//Ship of the Line shouldn't need Iron, like the Frigate
+	},
+
+	//Mounted
 	{
 		"name": "Knight",
 		"unitType": "Mounted",
@@ -124,6 +150,20 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
+	{
+		"name": "Cuirassier",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 28,
+		"cost": 120,
+		"requiredTech": "Imperialism",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	//(Uniques)
 	{
 		"name": "Camel Archer",
 		"unitType": "Archery",
@@ -188,6 +228,40 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Conquistador",
+		"unitType": "Mounted",
+		"replaces": "Cuirassier",
+		"uniqueTo": "Spain",
+		"movement": 4,
+		"strength": 28,
+		"cost": 120,
+		"requiredTech": "Imperialism",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight"],
+		"promotions": ["[Conquistador] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hakkapeliitta",
+		"unitType": "Mounted",
+		"replaces": "Cuirassier",	//(different upgrade path)
+		"uniqueTo": "Sweden",
+		"movement": 4,
+		"strength": 28,
+		"cost": 125,
+		"requiredTech": "Imperialism",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Hakkapeliitta] ability"],
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Rifling",
+		"attackSound": "horse"
+	},
+
+	//Anti-Cavalry
+	{
 		"name": "Lancer",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -201,6 +275,21 @@
 		"obsoleteTech": "Military Science",
 		"attackSound": "horse"
 	},
+	{
+		"name": "Uhlan",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 36,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": ["[+33]% Strength <vs [Mounted] units>", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Ambush I"], //The Anti-armour and anti-cav abilities are not directly said, so I'm going with this
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	//(Uniques)
 	{
 		"name": "Sipahi",
 		"unitType": "Mounted",
@@ -217,216 +306,19 @@
 		"obsoleteTech": "Military Science",
 		"attackSound": "horse"
 	},
-	{
-		"name": "Galleass",
-		"unitType": "Ranged Water",
-		"movement": 3,
-		"strength": 16,
-		"rangedStrength": 17,
-		"cost": 100,
-		"requiredTech": "Compass",
-		"obsoleteTech": "Warships",		//Just changed obsolete tech here, upgrade stays the same
-		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles"],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Frigate",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 28,
-		"cost": 185,
-		"requiredTech": "Warships",	//Different unlock tech and upgrade
-		"obsoleteTech": "Armour Plating",
-		"upgradesTo": "Cruiser",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"	//Frigate shouldn't need Iron
-	},
-	{
-		"name": "Ship of the Line", //Should be renamed to 'First Rate', but isn't to avoid annoying issues
-		"unitType": "Ranged Water",
-		"replaces": "Frigate",
-		"uniqueTo": "England",
-		"movement": 5,
-		"strength": 30,
-		"rangedStrength": 35,
-		"cost": 185,
-		"uniques": ["[+1] Sight"],
-		"requiredTech": "Warships",
-		"obsoleteTech": "Armour Plating",
-		"upgradesTo": "Cruiser",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"	//Ship of the Line shouldn't need Iron, like the Frigate
-	},
-
-	//Reworked units
-	//These units are reworked to fit in with the new era, or are really fiddly in the mod
-    {
-		//Caravels are much weaker and must be produced manually, they cannot be upgraded from Triremes.
-		//This is a bit weird, but its what the mod does, so...
-		"name": "Caravel",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 16,	//Reduced Strength, from 20
-		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
-		"hurryCostModifier": 30,
-		"attackSound": "cannon"
-	},
-//Turtle Ship is unchanged due to balance
-	{
-		//Trireme now upgraded to the Carrack, and obsoletes at Compass
-		"name": "Trireme",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Carrack",
-		"obsoleteTech": "Compass",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Quinquereme",
-		"unitType": "Melee Water",
-		"uniqueTo": "Carthage",
-		"replaces": "Trireme",
-		"movement": 4,
-		"strength": 13,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles"],
-		"upgradesTo": "Carrack",
-		"obsoleteTech": "Compass",
-		"attackSound": "nonmetalhit"
-	},
-//Dromon and Galley are unchanged due to different upgrade paths
-	{
-		"name": "Carolean",
-		"unitType": "Gunpowder",
-		"replaces": "Line Infantry",	//Replaces Line Infantry vs. Rifleman
-		"uniqueTo": "Sweden",
-		"movement": 2,
-		"strength": 30,
-		"cost": 225,
-		"requiredTech": "Flintlock",
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Rifleman",
-		"promotions": ["March"],
-		"attackSound": "shot"
-	},
-	{
-		"name": "Hakkapeliitta",
-		"unitType": "Mounted",
-		"replaces": "Cuirassier",	//Replaces Cuirassier vs. Lancer (different upgrade path)
-		"uniqueTo": "Sweden",
-		"movement": 4,
-		"strength": 28,
-		"cost": 185,
-		"requiredTech": "Imperialism",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
-		"promotions": ["[Hakkapeliitta] ability"],
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Rifling",
-		"attackSound": "horse"
-	},
-
-
-	
-	// New units
-
-	//Water Melee
-	{
-		"name": "Carrack",
-		"unitType": "Melee Water",
-		"movement": 3,
-		"strength": 18,
-		"cost": 100,
-		"requiredTech": "Compass",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Galleon",
-		"obsoleteTech": "Exploration",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Galleon",
-		"unitType": "Melee Water",
-		"movement": 4,
-		"strength": 28,
-		"cost": 165,
-		"requiredTech": "Exploration",
-		"uniques": ["Never appears as a Barbarian unit"],
-		"upgradesTo": "First Rate",
-		"obsoleteTech": "Navigation",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "First Rate", //Should be called Ship of the Line, but isn't to avoid clashes
-		"unitType": "Melee Water",
-		"movement": 5,
-		"strength": 37,
-		"cost": 185,
-		"requiredTech": "Navigation",
-		"uniques": ["Never appears as a Barbarian unit"],
-		"requiredResource": "Iron",
-		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Steam Power",
-		"attackSound": "nonmetalhit"
-	},
-
-	//Water Ranged
-	{
-		"name": "Cruiser",
-		"unitType": "Ranged Water",
-		"movement": 5,
-		"strength": 35,
-		"rangedStrength": 45,
-		"cost": 250,
-		"requiredTech": "Steam Power",
-		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
-	},
-
-	//Mounted
-	{
-		"name": "Cuirassier",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 28,
-		"cost": 120,
-		"requiredTech": "Imperialism",
-		"obsoleteTech": "Rifling",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "horse"
-	},
-
-	//Anti-Cavalry
-	{
-		"name": "Uhlan",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 36,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"requiredResource": "Horses",
-		"uniques": ["[+33]% Strength <vs [Mounted] units>", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
-		"promotions": ["Ambush I"], //The Anti-armour and anti-cav abilities are not directly said, so I'm going with this
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
-	},
 
 	//Land Melee
+	{
+		"name": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Flintlock",
+		"attackSound": "shot"
+	},
 	{
 		"name": "Line Infantry",
 		"unitType": "Gunpowder",
@@ -438,8 +330,89 @@
 		"upgradesTo": "Rifleman",
 		"attackSound": "shot"
 	},
+	//(Uniques)
+	{
+		"name": "Musketeer",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 28,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Flintlock",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Janissary",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "The Ottomans",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Flintlock",
+		"promotions": ["[Janissary] ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tercio",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Spain",
+		"movement": 2,
+		"strength": 26,
+		"cost": 160,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Flintlock",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Norwegian Ski Infantry",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Denmark",
+		"movement": 2,
+		"strength": 30,
+		"cost": 185,
+		"promotions": ["[Norwegian Ski Infantry] ability"],
+		"requiredTech": "Flintlock",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Carolean",
+		"unitType": "Gunpowder",
+		"replaces": "Line Infantry",
+		"uniqueTo": "Sweden",
+		"movement": 2,
+		"strength": 30,
+		"cost": 185,
+		"requiredTech": "Flintlock",
+		"obsoleteTech": "Rifling",
+		"upgradesTo": "Rifleman",
+		"promotions": ["March"],
+		"attackSound": "shot"
+	},
 
 	//Land Ranged
+	{
+		"name": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Skirmisher",
+		"obsoleteTech": "Flintlock",
+		"attackSound": "crossbow"
+	},
 	{
 		"name": "Skirmisher",
 		"unitType": "Ranged Gunpowder",
@@ -448,6 +421,55 @@
 		"strength": 25,
 		"rangedStrength": 25,
 		"cost": 185,
+		"requiredTech": "Flintlock",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "machinegun"
+	},
+	//(Uniques)
+{
+		"name": "Chu-Ko-Nu",
+		"unitType": "Archery",
+		"uniqueTo": "China",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 14,
+		"replaces": "Crossbowman",
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Skirmisher",
+		"obsoleteTech": "Flintlock",
+		"promotions": ["[Chu-Ko-Nu] ability"],
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Longbowman",
+		"unitType": "Archery",
+		"range": 2,
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"replaces": "Crossbowman",
+		"uniqueTo": "England",
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Skirmisher",
+		"obsoleteTech": "Flintlock",
+		"promotions": ["Extended Range"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Minuteman",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Skirmisher", //different upgrade path
+		"uniqueTo": "America",
+		"range": 1,
+		"movement": 2,
+		"strength": 25,
+		"rangedStrength": 25,
+		"cost": 185,
+		"uniques": ["Ignores terrain cost"],
+		"promotions": ["Drill I"],
 		"requiredTech": "Flintlock",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
@@ -468,14 +490,44 @@
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
-	
-	
 
-
-
-
-
-
-
+	//Scout
+	{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Exploration",
+		"upgradesTo": "Explorer",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Explorer",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Exploration",
+		"obsoleteTech": "Romanticism",
+		"upgradesTo": "Surveyor",
+		"uniques": ["May upgrade to [Musketman] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost", "Hic Sunc Dracones"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Surveyor",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 24,
+		"cost": 175,
+		"requiredTech": "Romanticism",
+		"obsoleteTech": "Satellites",
+		"uniques": ["May enter foreign tiles without open borders", "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
 	
 ]
