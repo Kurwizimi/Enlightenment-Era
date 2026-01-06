@@ -119,7 +119,7 @@
 				"quote": ""
 			},
 			{
-				"name": "Fortificaation",
+				"name": "Fortification",
 				"row": 9,
 				"prerequisites": ["Economics","Flintlock"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
@@ -142,7 +142,7 @@
 		"wonderCost": 750,
 		"techs": [
 			{
-				"name": "Armour Platineg",
+				"name": "Armour Plating",
 				"row": 1,
 				"prerequisites": ["Navigation"],
                 "uniques": [],
