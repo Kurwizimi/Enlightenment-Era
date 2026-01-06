@@ -1,6 +1,7 @@
 All the following are from [the Noun Project](https://thenounproject.com) licenced under either Creative Commons or Public Domain
 
 TECHS
+
 UNITS
 - Carrack - pirate ship by Madison Apple from Noun Project (CC BY 3.0)
 - Cruiser - Battleship by Jackson Davis from <a href="https://thenounproject.com/browse/icons/term/battleship/" target="_blank" title="Battleship Icons">Noun Project</a> (CC BY 3.0)
@@ -13,6 +14,25 @@ UNITS
 - Line Infantry - arquebus by Cédric Villain from Noun Project (CC BY 3.0)
 - Surveyor - Telescope by Fahrul Oktaviana from <a href="https://thenounproject.com/browse/icons/term/telescope/" target="_blank" title="Telescope Icons">Noun Project</a> (CC BY 3.0)
 - Uhlan - Spear by Firza Alamsyah
+
 PROMOTIONS
+- Hic Sunc Dracones - dragon by Vektorify from <a href="https://thenounproject.com/browse/icons/term/dragon/" target="_blank" title="dragon Icons">Noun Project</a> (CC BY 3.0)
+
 BUILDINGS
+- Bastion - Castle by Alexander Skowalsky from Noun Project (CC BY 3.0)
+- Cloth Mill - Fabric by Kyle Lynn from <a href="https://thenounproject.com/browse/icons/term/fabric/" target="_blank" title="Fabric Icons">Noun Project</a> (CC BY 3.0)
+- Drydock - Ship building by Ponisih from Noun Project (CC BY 3.0)
+- Gunsmith
+- Institute - creative by Adrien Coquet from Noun Project (CC BY 3.0)
+- Manor - stately home by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/stately-home/" target="_blank" title="stately home Icons">Noun Project</a> (CC BY 3.0)
+- Menagerie - Elephant by Ruby from <a href="https://thenounproject.com/browse/icons/term/elephant/" target="_blank" title="Elephant Icons">Noun Project</a> (CC BY 3.0)
+- Salon - salon by mim studio from <a href="https://thenounproject.com/browse/icons/term/salon/" target="_blank" title="salon Icons">Noun Project</a> (CC BY 3.0)
+
+
 WONDERS
+- Summer Palace - kiyomizu-dera temple in kyoto by Moondried from Noun Project (CC BY 3.0)
+- Kronbourg - Castle by Ahmed Elzahra from Noun Project (CC BY 3.0) 
+- Smithsonian Institute - School by The Icon Z from Noun Project (CC BY 3.0)
+- Topkapi Palace - topkapi palace by Linseed Studio from Noun Project (CC BY 3.0)
+- Torre del Oro - Torre de Belem by Amethyst Studio from Noun Project (CC BY 3.0) (Yes I know this isnt the same thing, there simply isn't any good icons for Torre del Oro. If you find some, please send me them.
+- Wat Phra Kaew - Wat Phra Kaew by tezar tantular from Noun Project (CC BY 3.0)
