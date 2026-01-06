@@ -314,7 +314,7 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "[+1] Sight"],
 		"promotions": ["[Sipahi] ability","Formation I"],
 		"upgradesTo": "Uhlan",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Rifling",
 		"attackSound": "horse"
 	},
 
