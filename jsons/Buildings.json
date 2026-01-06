@@ -188,9 +188,40 @@
 		"requiredTech": "Natural History",
 		"quote": ""
 	},
-  //Tokapi palace copy from other mod
-  //same with del orro
+	{
+        "name": "Topkapı Palace",
+        "isWonder": true,
+		"culture" : 1,
+		"happiness" : 3,
+		"cost": 625,
+		"greatPersonPoints": { "Great Scientist": 1 },
+        "uniques": ["[+1 Faith] from every [Barracks]", "[+1 Faith] from every [Armory]", "[+1 Faith] from every [Military Academy]",
+			"[+1 Faith] from every [Walls]", "[+1 Faith] from every [Castle]", "[+1 Faith] from every [Arsenal]", "[+1 Faith] from every [Bastion]", "[+1 Faith] from every [Military Base]"],
+        "requiredTech": "Sovereignty",
+        "quote": "'If the Earth was a single state, Istanbul will be its capital' - Napoleon Bonaparte"
+    },
+	{
+        "name": "Torre del Oro",
+        "isWonder": true,
+		"culture" : 1,
+		"cost": 750,
+		"greatPersonPoints": { "Great Merchant": 2 },
+        "uniques": ["[+3 Gold] from each Trade Route", "Gain a free [Seaport] [in this city]", "Must be next to [Coast]"],
+        "requiredTech": "Imperialism",
+        "quote": "'Here, then, on a sand bank washed once by every high tide, but now joined to the mainland as so unromantic a feature as the gas works, a tower.' - Walter Crum Watson"
+    },
   //Versailles increases WLTK celebrations
+	{
+        "name": "Wat Phra Kaew",
+        "isWonder": true,
+		"culture" : 1,
+		"happiness": 2,
+		"faith": 3,
+		"cost": 750,
+		"uniques": ["Resting point for Influence with City-States is increased by [15]"],
+        "requiredTech": "Humanism",
+        "quote": "'Every morning we are born again. What we do today is what matters most.' - Siddharta Guatama"
+    },
 
 
 
