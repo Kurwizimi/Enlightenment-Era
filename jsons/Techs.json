@@ -19,7 +19,7 @@
 				"quote": "'Architecture begins where engineering ends.' - Walter Gropius"
 			},
 			{
-				"name": "Soverignty",
+				"name": "Sovereignty",
 				"row": 6,
 				"prerequisites": ["Banking","Printing Press"],
                 "uniques": [],
