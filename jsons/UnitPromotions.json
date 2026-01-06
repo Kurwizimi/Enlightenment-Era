@@ -1,9 +1,13 @@
 [
- 		{
+ 	 {
+		"name": "[Ship of the Line] ability",
+		"uniques": ["[+10]% Strength bonus for [Military] units within [1] tiles",]
+	},
+	{
 		"name": "Hic Sunc Dracones",
 		"uniques": ["[+1] Sight <when [Embarked]>", "[+1] Movement <when [Embarked]>"]
 	},
-	 	{
+	 {
 		"name": "Drydock",
 		"uniques": ["[+15]% Strength"]
 	},
