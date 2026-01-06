@@ -1,3 +1,3 @@
 # Enlightenment era
 
-A replica of Poukai's Enlightenment Era mod.
+A replica of Pouakai's Enlightenment Era mod.
