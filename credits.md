@@ -1,7 +1,7 @@
 All the following are from [the Noun Project](https://thenounproject.com) licenced under either Creative Commons or Public Domain
 
 TECHS
-- Exploration - Spanish Ship by Smashicons from <a href="https://thenounproject.com/browse/icons/term/spanish-ship/" target="_blank" title="Spanish Ship Icons">Noun Project</a> (CC BY 3.0)
+- Exploration - adventure by Wahyu Adam from <a href="https://thenounproject.com/browse/icons/term/adventure/" target="_blank" title="adventure Icons">Noun Project</a> (CC BY 3.0)
 - Flintlock - flintlock by Gecko from <a href="https://thenounproject.com/browse/icons/term/flintlock/" target="_blank" title="flintlock Icons">Noun Project</a> (CC BY 3.0)
 - Fortification - Fort by Dmitrii Lagunov from <a href="https://thenounproject.com/browse/icons/term/fort/" target="_blank" title="Fort Icons">Noun Project</a> (CC BY 3.0)
 - Humanism - vitruvian by Cuputo from <a href="https://thenounproject.com/browse/icons/term/vitruvian/" target="_blank" title="vitruvian Icons">Noun Project</a> (CC BY 3.0)
@@ -10,7 +10,7 @@ TECHS
 - Natural History - fossil by Lars Meiertoberens from <a href="https://thenounproject.com/browse/icons/term/fossil/" target="_blank" title="fossil Icons">Noun Project</a> (CC BY 3.0)
 - Romanticism - Art by Jino from <a href="https://thenounproject.com/browse/icons/term/art/" target="_blank" title="Art Icons">Noun Project</a> (CC BY 3.0)
 - Sovereignty - law sword by Icon Set from <a href="https://thenounproject.com/browse/icons/term/law-sword/" target="_blank" title="law sword Icons">Noun Project</a> (CC BY 3.0)
-- Warships - Battleship by Anand Prahlad from <a href="https://thenounproject.com/browse/icons/term/battleship/" target="_blank" title="Battleship Icons">Noun Project</a> (CC BY 3.0)
+- Warships - Spanish Ship by Smashicons from <a href="https://thenounproject.com/browse/icons/term/spanish-ship/" target="_blank" title="Spanish Ship Icons">Noun Project</a> (CC BY 3.0) 
 
 UNITS
 - Carrack - pirate ship by Madison Apple from Noun Project (CC BY 3.0)
