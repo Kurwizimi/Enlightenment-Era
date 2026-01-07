@@ -1,7 +1,9 @@
 [
+  //These are Commented since they interfere with mod compatability
+  
   //Most Policies remain the same
   //Any changes will be listed as comments
-      {
+    //  {
         "name": "Commerce",
         "era": "Medieval era",
         "priorities": {
@@ -23,7 +25,7 @@
                 ],
                 "row": 1,
                 "column": 2
-            },
+            },//
             {
                 "name": "Trade Unions",  //Added Drydock to effect
                 "uniques": [
