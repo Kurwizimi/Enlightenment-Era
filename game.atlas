@@ -1,243 +1,264 @@
 
 game.png
-size: 1024, 512
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Bastion
   rotate: false
-  xy: 752, 198
+  xy: 968, 305
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Cloth Mill
   rotate: false
-  xy: 212, 404
+  xy: 212, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Drydock
   rotate: false
-  xy: 310, 90
+  xy: 1174, 413
   size: 90, 90
   orig: 90, 90
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gunsmith
+  rotate: false
+  xy: 536, 403
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Institute
   rotate: false
-  xy: 604, 90
+  xy: 1468, 413
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
-BuildingIcons/Kronborg
+BuildingIcons/Kronburg
   rotate: false
-  xy: 4, 5
+  xy: 4, 4
   size: 90, 83
   orig: 90, 83
   offset: 0, 0
   index: -1
 BuildingIcons/Manor
   rotate: false
-  xy: 536, 404
+  xy: 536, 187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Menagerie
   rotate: false
-  xy: 536, 296
+  xy: 752, 403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Salon
   rotate: false
-  xy: 644, 296
+  xy: 860, 403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Smithsonian Institute
   rotate: false
-  xy: 800, 100
+  xy: 1566, 413
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+BuildingIcons/Summer Palace
+  rotate: false
+  xy: 1664, 413
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Topkapı Palace
   rotate: false
-  xy: 102, 8
+  xy: 212, 99
   size: 90, 80
   orig: 90, 80
   offset: 0, 0
   index: -1
 BuildingIcons/Torre del Oro
   rotate: false
-  xy: 200, 4
+  xy: 102, 9
   size: 89, 78
   orig: 89, 78
   offset: 0, 0
   index: -1
-BuildingIcons/Tōdai-Ji
-  rotate: false
-  xy: 850, 198
-  size: 90, 90
-  orig: 90, 90
-  offset: 0, 0
-  index: -1
 BuildingIcons/Wat Phra Kaew
   rotate: false
-  xy: 898, 96
+  xy: 1762, 409
   size: 90, 94
   orig: 90, 94
   offset: 0, 0
   index: -1
 BuildingIcons/Weigh House
   rotate: false
-  xy: 860, 404
+  xy: 860, 187
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Armour Plating
+  rotate: false
+  xy: 212, 403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Exploration
   rotate: false
-  xy: 320, 404
+  xy: 212, 187
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Flintlock
+  rotate: false
+  xy: 320, 187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Fortification
   rotate: false
-  xy: 428, 404
+  xy: 428, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Humanism
   rotate: false
-  xy: 320, 188
+  xy: 428, 187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Imperialism
   rotate: false
-  xy: 428, 296
+  xy: 536, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Manufacturing
   rotate: false
-  xy: 428, 188
+  xy: 644, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Natural History
   rotate: false
-  xy: 644, 404
+  xy: 644, 187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Romanticism
   rotate: false
-  xy: 536, 188
+  xy: 752, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Sovereignty
   rotate: false
-  xy: 752, 404
+  xy: 752, 187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Warships
   rotate: false
-  xy: 752, 296
+  xy: 968, 403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Carrack
   rotate: false
-  xy: 860, 306
+  xy: 1076, 413
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Cruiser
   rotate: false
-  xy: 212, 296
+  xy: 320, 403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Curiassier
   rotate: false
-  xy: 212, 90
+  xy: 968, 207
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Explorer
   rotate: false
-  xy: 212, 188
+  xy: 320, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Field Gun
   rotate: false
-  xy: 408, 90
+  xy: 1272, 413
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/First Rate
   rotate: false
-  xy: 320, 296
+  xy: 428, 403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Galleon
   rotate: false
-  xy: 506, 90
+  xy: 1370, 413
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 UnitIcons/Light Rifles
   rotate: false
-  xy: 4, 304
+  xy: 4, 303
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Line Infantry
   rotate: false
-  xy: 702, 90
-  size: 90, 90
-  orig: 90, 90
+  xy: 644, 403
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Surveyor
   rotate: false
-  xy: 644, 188
+  xy: 860, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Uhlan
   rotate: false
-  xy: 4, 96
+  xy: 4, 95
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
