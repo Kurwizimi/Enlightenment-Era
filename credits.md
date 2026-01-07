@@ -2,7 +2,7 @@ All the following are from [the Noun Project](https://thenounproject.com) licenc
 
 TECHS
 - Exploration - adventure by Wahyu Adam from <a href="https://thenounproject.com/browse/icons/term/adventure/" target="_blank" title="adventure Icons">Noun Project</a> (CC BY 3.0)
-- Flintlock - flintlock by Gecko from <a href="https://thenounproject.com/browse/icons/term/flintlock/" target="_blank" title="flintlock Icons">Noun Project</a> (CC BY 3.0)
+- Flintlock - Gun by Javier Sánchez from <a href="https://thenounproject.com/browse/icons/term/gun/" target="_blank" title="Gun Icons">Noun Project</a> (CC BY 3.0)
 - Fortification - Fort by Dmitrii Lagunov from <a href="https://thenounproject.com/browse/icons/term/fort/" target="_blank" title="Fort Icons">Noun Project</a> (CC BY 3.0)
 - Humanism - vitruvian by Cuputo from <a href="https://thenounproject.com/browse/icons/term/vitruvian/" target="_blank" title="vitruvian Icons">Noun Project</a> (CC BY 3.0)
 - Imperialism - imperial orb by DesignHawk from <a href="https://thenounproject.com/browse/icons/term/imperial-orb/" target="_blank" title="imperial orb Icons">Noun Project</a> (CC BY 3.0)
@@ -32,7 +32,7 @@ BUILDINGS
 - Bastion - Castle by Alexander Skowalsky from Noun Project (CC BY 3.0)
 - Cloth Mill - Fabric by Kyle Lynn from <a href="https://thenounproject.com/browse/icons/term/fabric/" target="_blank" title="Fabric Icons">Noun Project</a> (CC BY 3.0)
 - Drydock - Ship building by Ponisih from Noun Project (CC BY 3.0)
-- Gunsmith - Uhhhh.....
+- Gunsmith - crossed muskets by ProSymbols from <a href="https://thenounproject.com/browse/icons/term/crossed-muskets/" target="_blank" title="crossed muskets Icons">Noun Project</a> (CC BY 3.0)
 - Institute - creative by Adrien Coquet from Noun Project (CC BY 3.0)
 - Manor - stately home by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/stately-home/" target="_blank" title="stately home Icons">Noun Project</a> (CC BY 3.0)
 - Menagerie - Elephant by Ruby from <a href="https://thenounproject.com/browse/icons/term/elephant/" target="_blank" title="Elephant Icons">Noun Project</a> (CC BY 3.0)
