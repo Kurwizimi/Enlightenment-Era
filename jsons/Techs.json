@@ -114,8 +114,7 @@
 				"name": "Manufacturing",
 				"row": 6,
 				"prerequisites": ["Economics"],
-                "uniques": ["[+1 Production] from every [Manufactory]"],
-				  "uniques": ["[+25]% weight to this choice for AI decisions"],
+                "uniques": ["[+1 Production] from every [Manufactory]", "[+25]% weight to this choice for AI decisions"],
 				"quote": ""
 			},
 			{
