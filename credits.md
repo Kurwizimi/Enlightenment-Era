@@ -11,7 +11,6 @@ TECHS
 - Romanticism - Art by Jino from <a href="https://thenounproject.com/browse/icons/term/art/" target="_blank" title="Art Icons">Noun Project</a> (CC BY 3.0)
 - Sovereignty - law sword by Icon Set from <a href="https://thenounproject.com/browse/icons/term/law-sword/" target="_blank" title="law sword Icons">Noun Project</a> (CC BY 3.0)
 - Warships - Battleship by Anand Prahlad from <a href="https://thenounproject.com/browse/icons/term/battleship/" target="_blank" title="Battleship Icons">Noun Project</a> (CC BY 3.0)
-- 
 
 UNITS
 - Carrack - pirate ship by Madison Apple from Noun Project (CC BY 3.0)
@@ -33,11 +32,12 @@ BUILDINGS
 - Bastion - Castle by Alexander Skowalsky from Noun Project (CC BY 3.0)
 - Cloth Mill - Fabric by Kyle Lynn from <a href="https://thenounproject.com/browse/icons/term/fabric/" target="_blank" title="Fabric Icons">Noun Project</a> (CC BY 3.0)
 - Drydock - Ship building by Ponisih from Noun Project (CC BY 3.0)
-- Gunsmith
+- Gunsmith - Uhhhh.....
 - Institute - creative by Adrien Coquet from Noun Project (CC BY 3.0)
 - Manor - stately home by Amethyst Studio from <a href="https://thenounproject.com/browse/icons/term/stately-home/" target="_blank" title="stately home Icons">Noun Project</a> (CC BY 3.0)
 - Menagerie - Elephant by Ruby from <a href="https://thenounproject.com/browse/icons/term/elephant/" target="_blank" title="Elephant Icons">Noun Project</a> (CC BY 3.0)
 - Salon - salon by mim studio from <a href="https://thenounproject.com/browse/icons/term/salon/" target="_blank" title="salon Icons">Noun Project</a> (CC BY 3.0)
+- Weigh House - weigher by Hopkins from <a href="https://thenounproject.com/browse/icons/term/weigher/" target="_blank" title="weigher Icons">Noun Project</a> (CC BY 3.0)
 
 
 WONDERS
