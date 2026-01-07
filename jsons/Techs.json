@@ -29,7 +29,6 @@
 				"name": "Metallurgy",
 				"row": 9,
 				"prerequisites": ["Printing Press","Gunpowder"],
-                "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
 			},
 			{
@@ -53,6 +52,7 @@
 				"name": "Warships",
 				"row": 1,
 				"prerequisites": ["Exploration"],
+				"uniques": ["[+25]% weight to this choice for AI decisions"],
 				"quote": ""
 			},
 			{
@@ -65,7 +65,7 @@
 				"name": "Humanism",
 				"row": 4,
 				"prerequisites": ["Architecture","Sovereignty"],
-                "uniques": [],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": ""
 			},
 			{
@@ -79,7 +79,6 @@
 				"name": "Flintlock",
 				"row": 10,
 				"prerequisites": ["Sovereignty","Metallurgy","Chemistry"],
-                "uniques": [],
 				"quote": ""
 			}
 		]
@@ -116,13 +115,13 @@
 				"row": 6,
 				"prerequisites": ["Economics"],
                 "uniques": ["[+1 Production] from every [Manufactory]"],
+				  "uniques": ["[+25]% weight to this choice for AI decisions"],
 				"quote": ""
 			},
 			{
 				"name": "Fortification",
 				"row": 9,
 				"prerequisites": ["Economics","Flintlock"],
-                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": ""
 			},
 			{
@@ -145,7 +144,6 @@
 				"name": "Armour Plating",
 				"row": 1,
 				"prerequisites": ["Navigation"],
-                "uniques": [],
 				"quote": ""
 			},
 			{
@@ -159,7 +157,7 @@
 				"name": "Romanticism",
 				"row": 4,
 				"prerequisites": ["Scientific Theory"],
-                "uniques": [],
+				  "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": ""
 			},
 			{
