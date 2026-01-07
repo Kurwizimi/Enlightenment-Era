@@ -6,7 +6,7 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Bastion
   rotate: false
-  xy: 968, 305
+  xy: 1076, 413
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
@@ -34,7 +34,7 @@ BuildingIcons/Gunsmith
   index: -1
 BuildingIcons/Institute
   rotate: false
-  xy: 1468, 413
+  xy: 1272, 315
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
@@ -48,35 +48,35 @@ BuildingIcons/Kronburg
   index: -1
 BuildingIcons/Manor
   rotate: false
-  xy: 536, 187
+  xy: 644, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Menagerie
   rotate: false
-  xy: 752, 403
+  xy: 644, 187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Salon
   rotate: false
-  xy: 860, 403
+  xy: 752, 187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Smithsonian Institute
   rotate: false
-  xy: 1566, 413
+  xy: 1370, 413
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
   index: -1
 BuildingIcons/Summer Palace
   rotate: false
-  xy: 1664, 413
+  xy: 1370, 315
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
@@ -97,14 +97,14 @@ BuildingIcons/Torre del Oro
   index: -1
 BuildingIcons/Wat Phra Kaew
   rotate: false
-  xy: 1762, 409
+  xy: 1468, 409
   size: 90, 94
   orig: 90, 94
   offset: 0, 0
   index: -1
 BuildingIcons/Weigh House
   rotate: false
-  xy: 860, 187
+  xy: 968, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -139,56 +139,56 @@ TechIcons/Fortification
   index: -1
 TechIcons/Humanism
   rotate: false
-  xy: 428, 187
+  xy: 536, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Imperialism
   rotate: false
-  xy: 536, 295
+  xy: 644, 403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Manufacturing
   rotate: false
-  xy: 644, 295
+  xy: 752, 403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Natural History
   rotate: false
-  xy: 644, 187
+  xy: 752, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Romanticism
   rotate: false
-  xy: 752, 295
+  xy: 860, 403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Sovereignty
   rotate: false
-  xy: 752, 187
+  xy: 860, 295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Warships
   rotate: false
-  xy: 968, 403
+  xy: 860, 187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Carrack
   rotate: false
-  xy: 1076, 413
+  xy: 968, 197
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
@@ -200,9 +200,9 @@ UnitIcons/Cruiser
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Curiassier
+UnitIcons/Cuirassier
   rotate: false
-  xy: 968, 207
+  xy: 1076, 315
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
@@ -216,7 +216,7 @@ UnitIcons/Explorer
   index: -1
 UnitIcons/Field Gun
   rotate: false
-  xy: 1272, 413
+  xy: 1174, 315
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
@@ -230,7 +230,7 @@ UnitIcons/First Rate
   index: -1
 UnitIcons/Galleon
   rotate: false
-  xy: 1370, 413
+  xy: 1272, 413
   size: 90, 90
   orig: 90, 90
   offset: 0, 0
@@ -244,14 +244,14 @@ UnitIcons/Light Rifles
   index: -1
 UnitIcons/Line Infantry
   rotate: false
-  xy: 644, 403
+  xy: 536, 187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Surveyor
   rotate: false
-  xy: 860, 295
+  xy: 968, 403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -261,5 +261,12 @@ UnitIcons/Uhlan
   xy: 4, 95
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hic Sunc Dracones
+  rotate: false
+  xy: 428, 187
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
