@@ -178,7 +178,7 @@
 		"uniques": ["Unbuildable", "Destroyed when the city is captured"]
 	},
  		{
-		"name": "Smithsonian Institution",
+		"name": "Smithsonian Institute",
 		"cost": 750,
 		"culture": 1,
     	"science": 3,
