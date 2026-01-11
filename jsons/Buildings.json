@@ -168,7 +168,8 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "Gain a free [Coastal Fort] [in all coastal cities]", "[+50]% Production when constructing [Water] units [in this city]"],
+		"uniques": ["Must be next to [Coast]", "Gain a free [Coastal Fort] [in all coastal cities] <hidden from users>", "[+50]% Production when constructing [Water] units [in this city]",
+				"Comment [+25 City Health for all Coastal Cities]"],
 		"requiredTech": "Warships",
 		"quote": ""
 	},
