@@ -109,13 +109,6 @@ BuildingIcons/Weigh House
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Armour Plating
-  rotate: false
-  xy: 212, 401
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 TechIcons/Exploration
   rotate: false
   xy: 212, 185
@@ -205,6 +198,27 @@ TileSets/AbsoluteUnits/Units/Carrack-2
   xy: 1076, 301
   size: 96, 96
   orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Cuirassier
+  rotate: false
+  xy: 1772, 436
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Cuirassier-1
+  rotate: false
+  xy: 1857, 436
+  size: 77, 65
+  orig: 77, 65
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Cuirassier-2
+  rotate: false
+  xy: 1942, 436
+  size: 77, 65
+  orig: 77, 65
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Line Infantry
@@ -303,6 +317,20 @@ UnitIcons/Uhlan
   xy: 4, 93
   size: 200, 200
   orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Advanced Protection
+  rotate: false
+  xy: 212, 401
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Armour Plating
+  rotate: false
+  xy: 212, 401
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hic Sunc Dracones
