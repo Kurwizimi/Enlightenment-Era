@@ -221,6 +221,27 @@ TileSets/AbsoluteUnits/Units/Cuirassier-2
   orig: 77, 65
   offset: 0, 0
   index: -1
+TileSets/AbsoluteUnits/Units/Explorer
+  rotate: false
+  xy: 1278, 336
+  size: 77, 74
+  orig: 77, 74
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Explorer-1
+  rotate: false
+  xy: 903, 103
+  size: 77, 74
+  orig: 77, 74
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Explorer-2
+  rotate: false
+  xy: 988, 107
+  size: 77, 74
+  orig: 77, 74
+  offset: 0, 0
+  index: -1
 TileSets/AbsoluteUnits/Units/Line Infantry
   rotate: false
   xy: 4, 4
